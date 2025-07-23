@@ -1,0 +1,78 @@
+/* Thiáº¿t láº­p ná»n */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Khung Ä‘Äƒng nháº­p */
+.login-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* TiÃªu Ä‘á» */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* NhÃ³m input */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* NÃºt Ä‘Äƒng nháº­p */
+.login-btn {
+    background: #ff6600;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background: #e65c00;
+}
+
+/* ÄÄƒng kÃ½ */
+.login-container p {
+    margin-top: 15px;
+    color: #666;
+}
+
+.login-container a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,271 @@
+/* ===== Căn chỉnh sản phẩm ===== */
+.product-card {
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.product-card h6 {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.product-card .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+}
+
+/* ===== Điều chỉnh thanh tiêu đề ===== */
+.section-title {
+    background: #ff5722; /* Màu cam mềm hơn */
+    color: white;
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* ===== Điều chỉnh thanh tìm kiếm ===== */
+.search-form input {
+    height: 35px;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-form button {
+    height: 37px;
+    background: #003366;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+    width: 250px;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== Hộp liên hệ ===== */
+.contact-box {
+    background: #002b80;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-box h3 {
+    font-size: 16px;
+    background: #001a66;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0 -10px 10px -10px;
+}
+
+.contact-box img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-info h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-info .phone {
+    background: white;
+    color: #002b80;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.contact-info .email {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* ===== Danh mục sản phẩm ===== */
+.category-box {
+    background: #002b80;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.category-box h3 {
+    font-size: 16px;
+    background: #001a66;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0 -10px 10px -10px;
+}
+
+.category-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-box ul li {
+    border-bottom: 1px solid #ccc;
+}
+
+.category-box ul li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 8px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.category-box ul li a i {
+    color: red;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-icons .icon {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+.header-icons .icon:hover {
+    color: #ffcc00;
+}
+
+.login-btn {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #0a1a4b; /* Màu nền xanh đậm */
+    color: white;
+    padding: 30px 0;
+}
+
+.footer h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer hr {
+    border-top: 2px solid white;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.footer p, .footer a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .copyright {
+    background-color: #081437; /* Màu nền cho phần bản quyền */
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* style.css */
+.checkout-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.checkout-products {
+    margin-bottom: 20px;
+}
+
+.product-details {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.product-info p {
+    margin: 5px 0;
+}
+
+.order-summary {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.checkout-form .form-group {
+    margin-bottom: 15px;
+}
+
+.checkout-form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.checkout-form .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+}
+
+
